@@ -1,7 +1,4 @@
 #include <bits/stdc++.h>
-
-
-
 #define atom ios::sync_with_stdio(0); cin.tie(0); cout.tie(0);ios_base::sync_with_stdio(0);
 typedef long long ll;
 typedef long double ld;
@@ -11,7 +8,7 @@ int main() {
     atom;
     ll l1 , l2 , r2 , r1 ,m1 , m2;
     cin >> l1 >> r1 >> l2 >> r2;
-    if (l1 < l2 && r1 < l2 || l1 > r2 ) {
+    if (r1 < l2 || l1 > r2 ) {
         cout << -1;
     }
     else {
